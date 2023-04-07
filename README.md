@@ -65,7 +65,8 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 
 **Tab Navigation** (Tab to Screen)
 
-* Learning Screen
+* Learning Categories Screen
+    * after you click on a category, a flashcard study fragment is shown
 * Word List Screen
 * Stats Screen
 
@@ -73,9 +74,6 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 
 - Set-up Screen
   - Word List Screen
-
-- Learning Screen
-  - Categories Screen which when clicked on, then flashcard screen
 
 
 
