@@ -80,4 +80,5 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+Learning Categories Screen
+<img src="https://user-images.githubusercontent.com/69126372/230789895-b6fe066b-26a4-47ae-8d97-648e9794efae.png" width=600>
