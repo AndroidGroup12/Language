@@ -48,3 +48,7 @@ Mobile App Dev - App Brainstorming Example
    - **Market:** This app isn't targeted towards any specific demographic as anyone can use it to practice building good habits.
    - **Habit:** Ideally, users will be using this app as often as possible. This can be reinforced through the use of notifications that encourage them to return to the app or 'scores' that gamify the experience.
    - **Scope:** V1 will have the ability to update the progress of each habit by adding entries. It can also have a point system where the user is rewarded the more they build a habit.
+
+
+## Final app idea chosen
+Language learning App
