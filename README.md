@@ -65,9 +65,9 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 
 **Tab Navigation** (Tab to Screen)
 
-* Learning Categories Screen
+* Learning Screen
     * after you click on a category, a flashcard study fragment is shown
-* Word List Screen
+* Words Screen
 * Stats Screen
 
 **Flow Navigation** (Screen to Screen)
@@ -80,5 +80,16 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-Learning Categories Screen
-<img src="https://user-images.githubusercontent.com/69126372/230789895-b6fe066b-26a4-47ae-8d97-648e9794efae.png" width=600>
+Set up Screen
+<img src="https://user-images.githubusercontent.com/69126372/230789895-b6fe066b-26a4-47ae-8d97-648e9794efae.png" width=200>
+
+Wordw Screen: After selecting a category, the list of words are shown
+<img src="https://user-images.githubusercontent.com/69126372/230789944-28eabd10-378f-4773-914f-718082b25a3d.png" width=200>
+<img src="https://user-images.githubusercontent.com/69126372/230789959-9f11b612-84e4-46f1-978f-b412b3338a8e.png" width=200>
+
+Learning Screen
+<img src="https://user-images.githubusercontent.com/69126372/230790037-b2fc81a1-a4f8-4038-b962-6f3ac3e2c41e.png" width=200>
+<img src="https://user-images.githubusercontent.com/69126372/230790047-956cc129-8e76-4c40-bcf7-d1afd509af67.png" width=200>
+
+Stats Screen
+<img src="https://user-images.githubusercontent.com/69126372/230790062-40539534-19b7-4afe-bd3f-c7c813444676.png" width=200>
