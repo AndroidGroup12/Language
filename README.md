@@ -66,15 +66,15 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 
 **Tab Navigation** (Tab to Screen)
 
+* Words Screen
 * Learning Screen
     * after you click on a category, a flashcard study fragment is shown
-* Words Screen
 * Stats Screen
 
 **Flow Navigation** (Screen to Screen)
 
 - Set-up Screen
-  - Word List Screen
+  * => Words Screen
 
 
 
@@ -91,7 +91,7 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 <img src="https://user-images.githubusercontent.com/69126372/230789944-28eabd10-378f-4773-914f-718082b25a3d.png" width=250>
 <img src="https://user-images.githubusercontent.com/69126372/230790204-aa131071-0670-4848-bee0-24f546148fb0.png" width=250>
 
-**Learning Screen**
+**Learning Screen**: click on flash card to see the foreign language word
 
 <img src="https://user-images.githubusercontent.com/69126372/230790037-b2fc81a1-a4f8-4038-b962-6f3ac3e2c41e.png" width=250>
 <img src="https://user-images.githubusercontent.com/69126372/230790047-956cc129-8e76-4c40-bcf7-d1afd509af67.png" width=250>
