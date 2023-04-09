@@ -83,18 +83,18 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 
 **Set up Screen**
 
-<img src="https://user-images.githubusercontent.com/69126372/230789895-b6fe066b-26a4-47ae-8d97-648e9794efae.png" width=200>
+<img src="https://user-images.githubusercontent.com/69126372/230789895-b6fe066b-26a4-47ae-8d97-648e9794efae.png" width=250>
 
 **Words Screen**: After selecting a category, the list of words are shown
 
-<img src="https://user-images.githubusercontent.com/69126372/230789944-28eabd10-378f-4773-914f-718082b25a3d.png" width=200>
-<img src="https://user-images.githubusercontent.com/69126372/230790204-aa131071-0670-4848-bee0-24f546148fb0.png" width=200>
+<img src="https://user-images.githubusercontent.com/69126372/230789944-28eabd10-378f-4773-914f-718082b25a3d.png" width=250>
+<img src="https://user-images.githubusercontent.com/69126372/230790204-aa131071-0670-4848-bee0-24f546148fb0.png" width=250>
 
 **Learning Screen**
 
-<img src="https://user-images.githubusercontent.com/69126372/230790037-b2fc81a1-a4f8-4038-b962-6f3ac3e2c41e.png" width=200>
-<img src="https://user-images.githubusercontent.com/69126372/230790047-956cc129-8e76-4c40-bcf7-d1afd509af67.png" width=200>
+<img src="https://user-images.githubusercontent.com/69126372/230790037-b2fc81a1-a4f8-4038-b962-6f3ac3e2c41e.png" width=250>
+<img src="https://user-images.githubusercontent.com/69126372/230790047-956cc129-8e76-4c40-bcf7-d1afd509af67.png" width=250>
 
 **Stats Screen**
 
-<img src="https://user-images.githubusercontent.com/69126372/230790062-40539534-19b7-4afe-bd3f-c7c813444676.png" width=200>
+<img src="https://user-images.githubusercontent.com/69126372/230790062-40539534-19b7-4afe-bd3f-c7c813444676.png" width=250>
