@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/shopping_imageButton"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_corner"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/places_imageButton"
+        app:srcCompat="@drawable/screen_shot_2023_04_07_at_11_13_03_pm" />
+
+    <ImageButton
+        android:id="@+id/tourist_imageButton"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_corner"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/common_words_imageButton"
+        app:srcCompat="@drawable/screen_shot_2023_04_07_at_10_24_47_pm" />
+
+    <TextView
+        android:id="@+id/stickyView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4C8492"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Categories"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/food_imageButton"
+        android:layout_width="313dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_corner"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tourist_imageButton"
+        app:srcCompat="@drawable/screen_shot_2023_04_07_at_6_43_00_pm" />
+
+    <ImageButton
+        android:id="@+id/common_words_imageButton"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_corner"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stickyView"
+        app:srcCompat="@drawable/screen_shot_2023_04_07_at_10_14_10_pm" />
+
+    <ImageButton
+        android:id="@+id/places_imageButton"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/round_corner"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/food_imageButton"
+        app:srcCompat="@drawable/screen_shot_2023_04_08_at_4_37_57_pm" />
+</androidx.constraintlayout.widget.ConstraintLayout>

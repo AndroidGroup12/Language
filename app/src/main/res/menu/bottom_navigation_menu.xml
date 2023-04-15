@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_words"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Words"
+        android:icon="@drawable/ic_baseline_list_24"/>
+    <item
+        android:id="@+id/action_categories"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Categories"
+        android:icon="@drawable/ic_baseline_auto_awesome_mosaic_24"/>
+
+    <item
+        android:id="@+id/action_study"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Study"
+        android:icon="@drawable/ic_baseline_library_books_24"/>
+
+    <item
+        android:id="@+id/action_stats"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Stats"
+        android:icon="@drawable/ic_baseline_show_chart_24"/>
+
+</menu>

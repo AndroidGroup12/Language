@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".words" >
+
+    <TextView
+        android:id="@+id/words_to_learnTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:text="Words to Learn: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/words_masteredTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:text="Words Mastered: "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/words_to_learnRV" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/words_masteredRV"
+        android:layout_width="345dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple_200"
+        android:elevation="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/words_masteredTv"
+        tools:listitem="@layout/word_translation" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/words_to_learnRV"
+        android:layout_width="345dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="16dp"
+        android:elevation="12dp"
+        android:background="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/words_to_learnTv"
+        tools:listitem="@layout/word_translation"/>
+
+    <TextView
+        android:id="@+id/to_learn_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/words_to_learnRV"
+        app:layout_constraintStart_toEndOf="@+id/words_to_learnTv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="14"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/words_masteredTv"
+        app:layout_constraintTop_toBottomOf="@+id/words_to_learnRV" />
+</androidx.constraintlayout.widget.ConstraintLayout>
