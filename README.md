@@ -47,10 +47,12 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
     * Keep record of what the user did and rate their experience
 * Option for user to choose different categories of words to learn (pop culture, dining, hospital)
 
-## Build Progress
+### 1a. Build Progress
 1. Vocab List
 
 2. Screens
+<img src='https://github.com/AndroidGroup12/VocabBoost/blob/main/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+GIF created with LiceCap  
 
 
 
