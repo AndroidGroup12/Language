@@ -47,7 +47,7 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
     * Keep record of what the user did and rate their experience
 * Option for user to choose different categories of words to learn (pop culture, dining, hospital)
 
-### 1a. Build Progress
+### Milestone 2 (Unit 8):  Build Progress
 1. Vocab List
 
 2. Screens
