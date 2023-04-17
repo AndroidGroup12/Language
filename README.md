@@ -49,6 +49,7 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 
 ### Milestone 2 (Unit 8):  Build Progress
 1. Vocab List
+<img src='https://user-images.githubusercontent.com/98482880/232628623-e4994ba0-f86b-4f67-9584-9e02ef63daad.png' title='Dictionary' width='' alt='Dictionary' />
 
 2. Screens
 <img src='https://github.com/AndroidGroup12/VocabBoost/blob/main/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
