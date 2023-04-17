@@ -28,14 +28,18 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 
 **Required Features**
 
-* User can have options to choose a foreign language and category to learn (at least 3 options).
+* User can have options to choose a foreign language and category to learn (at least 2 options).
+   - [X] Save a language choice using sharedPreferences 
 * User can see the list of words of the category and their status (mastered or to learn)
+   - [X] xml file was created
 * User can see the English meaning of a word, click to see it in foreign language and decide if they remember it or not.
+   - [X] xml file was created
 * User can track progress - see lists of words mastered and words to study. 
+   - [X] collect list of words for each language
 
 
 **Stretch Features**
-
+* Add text-to-speech to know how to pronounce a word
 * User can receive push Notifications.
 * Set the goal of learning: ex. how many words per day
 * Log-in
