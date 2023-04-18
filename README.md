@@ -51,6 +51,8 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 1. Vocab List
 <img src='https://user-images.githubusercontent.com/98482880/232628623-e4994ba0-f86b-4f67-9584-9e02ef63daad.png' title='Dictionary' width='' alt='Dictionary' />
 
+<img width="1040" title="Spanish Vocab" src="https://user-images.githubusercontent.com/98507590/232638188-f233d3ef-7a33-4859-bdc9-156147a60934.png">
+
 2. Screens
 <img src='https://github.com/AndroidGroup12/VocabBoost/blob/main/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 GIF created with LiceCap  
