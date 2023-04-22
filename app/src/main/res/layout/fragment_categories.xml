@@ -13,11 +13,11 @@
         android:adjustViewBounds="true"
         android:background="@drawable/round_corner"
         android:scaleType="fitStart"
+        android:contentDescription="Shopping"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/places_imageButton"
-        app:srcCompat="@drawable/screen_shot_2023_04_07_at_11_13_03_pm" />
+        app:srcCompat="@drawable/shopping" />
 
     <ImageButton
         android:id="@+id/tourist_imageButton"
@@ -27,26 +27,11 @@
         android:adjustViewBounds="true"
         android:background="@drawable/round_corner"
         android:scaleType="fitStart"
+        android:contentDescription="Tourist"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/common_words_imageButton"
-        app:srcCompat="@drawable/screen_shot_2023_04_07_at_10_24_47_pm" />
-
-    <TextView
-        android:id="@+id/stickyView"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#4C8492"
-        android:gravity="center_vertical"
-        android:paddingLeft="10dp"
-        android:text="Categories"
-        android:textColor="#fff"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/tourist" />
 
     <ImageButton
         android:id="@+id/food_imageButton"
@@ -56,11 +41,11 @@
         android:adjustViewBounds="true"
         android:background="@drawable/round_corner"
         android:scaleType="fitStart"
+        android:contentDescription="Food and dining"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tourist_imageButton"
-        app:srcCompat="@drawable/screen_shot_2023_04_07_at_6_43_00_pm" />
+        app:srcCompat="@drawable/food" />
 
     <ImageButton
         android:id="@+id/common_words_imageButton"
@@ -70,11 +55,11 @@
         android:adjustViewBounds="true"
         android:background="@drawable/round_corner"
         android:scaleType="fitStart"
+        android:contentDescription="Common Words"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stickyView"
-        app:srcCompat="@drawable/screen_shot_2023_04_07_at_10_14_10_pm" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/words" />
 
     <ImageButton
         android:id="@+id/places_imageButton"
@@ -84,9 +69,9 @@
         android:adjustViewBounds="true"
         android:background="@drawable/round_corner"
         android:scaleType="fitCenter"
+        android:contentDescription="Places"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/food_imageButton"
-        app:srcCompat="@drawable/screen_shot_2023_04_08_at_4_37_57_pm" />
+        app:srcCompat="@drawable/places" />
 </androidx.constraintlayout.widget.ConstraintLayout>

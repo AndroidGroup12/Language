@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">VocabBoost</string>
+    <string name="language1">Spanish</string>
+    <string name="language2">German</string>
+    <string name="language3">Chinese</string>
+    <string name="language4">Arabic</string>
+    <string name="language5">Hebrew</string>
+    <string name="language6">Russian</string>
 </resources>

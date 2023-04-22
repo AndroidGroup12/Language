@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="10dp"
+    tools:context=".ChooseLanguage">
+
+    <Button
+        android:id="@+id/language1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/language1"
+        android:backgroundTint="@color/bittersweet"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/language2"
+        app:layout_constraintBottom_toTopOf="@id/language3"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1" />
+
+    <Button
+        android:id="@+id/language2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/language2"
+        android:backgroundTint="@color/emerald"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/language1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/language4"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1" />
+
+    <Button
+        android:id="@+id/language3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/language3"
+        android:backgroundTint="@color/picton"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/language1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/language4"
+        app:layout_constraintBottom_toTopOf="@id/language5"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1" />
+
+    <Button
+        android:id="@+id/language4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/language4"
+        android:backgroundTint="@color/xanthous"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/language2"
+        app:layout_constraintStart_toEndOf="@id/language3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/language6"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1" />
+
+    <Button
+        android:id="@+id/language5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/language5"
+        android:backgroundTint="@color/tangerine"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/language3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/language6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1" />
+
+    <Button
+        android:id="@+id/language6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/language6"
+        android:backgroundTint="@color/mindaro"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/language4"
+        app:layout_constraintStart_toEndOf="@id/language5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

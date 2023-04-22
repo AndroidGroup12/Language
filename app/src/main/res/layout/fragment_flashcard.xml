@@ -6,21 +6,6 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/stickyView"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#4C8492"
-        android:gravity="center_vertical"
-        android:paddingLeft="10dp"
-        android:text="Study"
-        android:textColor="#fff"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/flashcardTv"
         android:layout_width="297dp"
         android:layout_height="259dp"
@@ -33,9 +18,9 @@
         android:gravity="center"
         android:elevation="18dp"
         android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stickyView" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/correct_imageButton"
@@ -45,13 +30,14 @@
         android:adjustViewBounds="true"
         android:padding="0dp"
         android:scaleType="fitCenter"
+        android:contentDescription="I know this word"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.806"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/flashcardTv"
         app:layout_constraintVertical_bias="0.964"
-        tools:srcCompat="@drawable/screen_shot_2023_04_14_at_8_59_41_pm" />
+        tools:srcCompat="@drawable/check" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -62,13 +48,14 @@
         android:adjustViewBounds="true"
         android:padding="0dp"
         android:scaleType="fitCenter"
+        android:contentDescription="Do not know"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/correct_imageButton"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/flashcardTv"
         app:layout_constraintVertical_bias="1.0"
-        tools:srcCompat="@drawable/screen_shot_2023_04_14_at_8_59_54_pm" />
+        tools:srcCompat="@drawable/cross" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
