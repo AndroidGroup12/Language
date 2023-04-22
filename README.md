@@ -28,20 +28,35 @@ Allows users to memorize top 100 most commonly used words of a foreign language 
 
 **Required Features**
 
-* User can have options to choose a foreign language and category to learn (at least 3 options).
+* User can have options to choose a foreign language and category to learn (at least 2 options).
+   - [X] Save a language choice using sharedPreferences 
 * User can see the list of words of the category and their status (mastered or to learn)
+   - [X] xml file was created
 * User can see the English meaning of a word, click to see it in foreign language and decide if they remember it or not.
+   - [X] xml file was created
 * User can track progress - see lists of words mastered and words to study. 
+   - [X] collect list of words for each language
 
 
 **Stretch Features**
-
+* Add text-to-speech to know how to pronounce a word
 * User can receive push Notifications.
 * Set the goal of learning: ex. how many words per day
 * Log-in
 * Searching destination and getting reccomendations of activities
     * Keep record of what the user did and rate their experience
 * Option for user to choose different categories of words to learn (pop culture, dining, hospital)
+
+### Milestone 2 (Unit 8):  Build Progress
+1. Vocab List
+<img src='https://user-images.githubusercontent.com/98482880/232628623-e4994ba0-f86b-4f67-9584-9e02ef63daad.png' title='Dictionary' width='' alt='Dictionary' />
+
+<img width="1040" title="Spanish Vocab" src="https://user-images.githubusercontent.com/98507590/232638188-f233d3ef-7a33-4859-bdc9-156147a60934.png">
+
+2. Screens
+<img src='https://github.com/AndroidGroup12/VocabBoost/blob/main/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+GIF created with LiceCap  
+
 
 
 ### 2. Screen Archetypes
